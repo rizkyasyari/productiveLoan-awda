@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pertanyaan Pembiayaan</name>
+   <tag></tag>
+   <elementGuidId>6229b0f2-c94b-4492-acff-b37bbfc3facc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.step-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec1a4330-629b-49c1-9d69-10e129a462d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>step-title</value>
+      <webElementGuid>ee6e9c18-9d88-4d3d-8be3-bf37084069b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pertanyaan Pembiayaan</value>
+      <webElementGuid>b2d3ea15-6f60-448b-a37b-20a10421f1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;step&quot;]/div[@class=&quot;step-title&quot;]</value>
+      <webElementGuid>f77b5c67-69f2-436c-82cc-d380a3c990b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>04616b62-18f3-402f-b054-27f8d950297c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formulir Pembiayaan Modal Usaha'])[1]/following::div[29]</value>
+      <webElementGuid>61d42071-1ebc-4971-89e4-33d93a7e3c16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Produk Pembiayaan'])[1]/preceding::div[1]</value>
+      <webElementGuid>1cbe2cfe-4b6a-4591-9fd7-a7f561b32c43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Working Capital'])[1]/preceding::div[2]</value>
+      <webElementGuid>fa524608-8229-4d09-a4cd-97007a5bdb45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pertanyaan Pembiayaan']/parent::*</value>
+      <webElementGuid>d3e91fd0-e199-4f10-8220-6fd54e44bbb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div</value>
+      <webElementGuid>107d0fac-526a-4ace-9de0-c88347fa27c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pertanyaan Pembiayaan' or . = 'Pertanyaan Pembiayaan')]</value>
+      <webElementGuid>436df1cb-3bab-4909-969b-2ab0ee7ac6aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

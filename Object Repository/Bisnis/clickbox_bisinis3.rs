@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>clickbox_bisinis3</name>
+   <tag></tag>
+   <elementGuidId>586b3895-ba0b-40fa-b4a3-782c3c1b87bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/form/div[17]/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/form/div[17]/div/div/label/span/span</value>
+      <webElementGuid>9cd75a92-f9f6-45f1-91c0-02b398fd68e5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

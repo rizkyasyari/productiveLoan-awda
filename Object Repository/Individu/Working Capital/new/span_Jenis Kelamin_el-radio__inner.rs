@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jenis Kelamin_el-radio__inner</name>
+   <tag></tag>
+   <elementGuidId>2aa0157c-f381-4628-b8f3-690f827bfd58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[4]/div/div/label/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.el-radio__inner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>19cd7e6b-df98-4aa7-be8b-3510ac7e25a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-radio__inner</value>
+      <webElementGuid>0f3a330f-180f-4c43-8fc7-d1f1cbe2befb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;step&quot;]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;el-form-item el-form-item--feedback is-required is-no-asterisk el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;el-radio-group&quot;]/label[@class=&quot;el-radio&quot;]/span[@class=&quot;el-radio__input&quot;]/span[@class=&quot;el-radio__inner&quot;]</value>
+      <webElementGuid>0f33e587-6a8e-4096-b47b-8203931e9b46</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[4]/div/div/label/span/span</value>
+      <webElementGuid>8ffb57e6-c776-45a9-bb59-2d5d8bd9a7c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span/span</value>
+      <webElementGuid>f93fa71c-9899-4489-9c97-3314969c6d77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

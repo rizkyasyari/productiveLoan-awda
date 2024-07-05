@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_jakartaBarat</name>
+   <tag></tag>
+   <elementGuidId>1aca90f2-dab6-4add-881b-63d548948d71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Jakarta Barat' or . = 'Jakarta Barat')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#el-autocomplete-4801-item-4 > div.item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='el-autocomplete-4801-item-4']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0481d826-6a5a-404a-a8ad-3f622ade0824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item</value>
+      <webElementGuid>25ce058f-94c6-4f8a-ab7f-3a88994db452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jakarta Barat</value>
+      <webElementGuid>91074e05-ff82-4618-836f-a1bc783fa883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;el-autocomplete-4801-item-4&quot;)/div[@class=&quot;item&quot;]</value>
+      <webElementGuid>08b8d5ab-d683-41b1-9acd-9259b4390539</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='el-autocomplete-4801-item-4']/div</value>
+      <webElementGuid>456c9c94-4268-4081-972f-07eb32b58196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Selatan'])[1]/following::div[1]</value>
+      <webElementGuid>731f4bca-738e-4c09-b69e-85816ddf6a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Utara'])[1]/following::div[2]</value>
+      <webElementGuid>e3a034d3-bc2f-4794-9884-17e1a63d6f74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jakarta Barat']/parent::*</value>
+      <webElementGuid>e6b9ce5e-ddff-419c-b071-7da2e59431c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div</value>
+      <webElementGuid>28c69105-366c-42a6-8500-e37425e897cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Jakarta Barat' or . = 'Jakarta Barat')]</value>
+      <webElementGuid>6b0a0f68-118d-4f94-8430-43f208d86320</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

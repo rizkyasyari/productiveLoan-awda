@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_camera</name>
+   <tag></tag>
+   <elementGuidId>b007bae7-63e1-4ae2-bd6b-d91dd801993f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[10]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ac9af58c-2758-4993-b345-5d63fb40b592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-input-group__prepend</value>
+      <webElementGuid>5f157598-05df-4c0a-9ca4-95a9542f42af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;step&quot;]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;photo&quot;]/div[@class=&quot;el-form-item el-form-item--feedback el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;hover el-input el-input-group el-input-group--prepend&quot;]/div[@class=&quot;el-input-group__prepend&quot;]</value>
+      <webElementGuid>c6a676d9-770f-4fa1-ac4c-8f13aa9b5c15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[10]/div/div/div/div</value>
+      <webElementGuid>1190488d-3b1e-425a-b3b0-4cd87c1454a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Identitas (KTP) Pasangan'])[1]/following::div[3]</value>
+      <webElementGuid>f090b4b2-0a83-43d9-bd74-0350bbab7601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pisah Harta'])[1]/following::div[8]</value>
+      <webElementGuid>cb9fb51c-468f-487a-a584-2551a0e2efee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor KTP Pasangan'])[1]/preceding::div[1]</value>
+      <webElementGuid>f82282f1-3402-4c8a-a3bf-5499889bafb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Lengkap Pasangan Sesuai Identitas'])[1]/preceding::div[4]</value>
+      <webElementGuid>3a32014c-8d85-4fc7-80e0-8b9596cc3ffa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/div/div</value>
+      <webElementGuid>cfefc4f9-776a-43ba-845a-c70a9cb0a229</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_kirimOTP</name>
+   <tag></tag>
+   <elementGuidId>38f3d394-c9ec-4e2d-bc54-afc9eb76e0bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.el-button.el-button-blue.el-button--primary.el-button--large</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e95f79d4-9313-4199-ab81-85bd2eb2725b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>699253f3-9b40-44b2-8377-3b10f0ddc1a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-button el-button-blue el-button--primary el-button--large</value>
+      <webElementGuid>dca44049-8c5d-404a-aedf-0ca6496199a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim OTP</value>
+      <webElementGuid>172c43e2-e503-4c6d-b342-c1c229da37b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;el-form-item el-form-item--feedback is-error is-required is-no-asterisk el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;el-input el-input--large el-input-group el-input-group--append&quot;]/div[@class=&quot;el-input-group__append&quot;]/button[@class=&quot;el-button el-button-blue el-button--primary el-button--large&quot;]</value>
+      <webElementGuid>c21163b3-b656-41c8-acf0-0f79969124ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>aad4edad-01c2-4841-839e-e19b80a848dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div[2]/div/div/div/button</value>
+      <webElementGuid>45049b84-02b8-410c-96e0-26575886f07f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Handphone Pemohon'])[1]/following::button[1]</value>
+      <webElementGuid>c05dc148-bb4f-482d-8eb7-2155f3090f75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan Pinjaman'])[1]/following::button[1]</value>
+      <webElementGuid>b7442409-286d-4549-ba1d-c588debe0575</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Nomor Handphone Pemohon'])[1]/preceding::button[1]</value>
+      <webElementGuid>48b61fe3-552b-48fc-9798-1ee193b71a40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>e61a1eba-bef9-48cd-8b7c-98cbf0b4db26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Kirim OTP' or . = 'Kirim OTP')]</value>
+      <webElementGuid>5163db7b-7d46-417a-b287-f306431ccc51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

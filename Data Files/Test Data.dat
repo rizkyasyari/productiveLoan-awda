@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Test Data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>6778b814-6c64-4afc-aaba-98d613cb6f72</dataFileGUID>
+   <dataSourceUrl>C:\Users\d00026\OneDrive - PT Astra Welab Digital Arta\Data Lokal\ProductiveLoansAutomation-feat_mii123\ProductiveLoansAutomation-feat_mii123\Data Files\data.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

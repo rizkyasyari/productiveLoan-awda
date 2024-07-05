@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_invoiceFinancing</name>
+   <tag></tag>
+   <elementGuidId>69616a6d-8c76-4d73-84b0-7bcecfb9551f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[1]/div[1]/ul/li[2]/div/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[1]/div[1]/ul/li[2]/div/b</value>
+      <webElementGuid>ff074b29-ee41-4163-8ff8-08c045fccab5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Kode Pos Sesuai Tempat Usaha_el-checkb_7a8f53</name>
+   <tag></tag>
+   <elementGuidId>5ce692ec-1486-42fa-be36-2e895db3bc34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;step&quot;]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;el-form-item el-form-item--feedback is-no-asterisk el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;checkTnc&quot;]/label[@class=&quot;el-checkbox&quot;]/span[@class=&quot;el-checkbox__input&quot;]/span[@class=&quot;el-checkbox__inner&quot;][count(. | //*[@class = 'el-checkbox__inner']) = count(//*[@class = 'el-checkbox__inner'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[8]/div/div/label/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.el-checkbox__inner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ef9631cf-589e-4dce-954e-f42daed6f6b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-checkbox__inner</value>
+      <webElementGuid>3bf896e1-5e6f-44fd-96c1-ac21d61d2e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;step&quot;]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;el-form-item el-form-item--feedback is-no-asterisk el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;checkTnc&quot;]/label[@class=&quot;el-checkbox&quot;]/span[@class=&quot;el-checkbox__input&quot;]/span[@class=&quot;el-checkbox__inner&quot;]</value>
+      <webElementGuid>aa4666ca-b204-46b8-a432-8d50a1ad8d2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[8]/div/div/label/span/span</value>
+      <webElementGuid>c04da6dd-36ab-494d-9e3b-7d21b444676f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span/span</value>
+      <webElementGuid>23c71d41-bd8f-4559-9688-d877d566a856</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

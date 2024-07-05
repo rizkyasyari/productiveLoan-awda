@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1991</name>
+   <tag></tag>
+   <elementGuidId>61d3e7fd-d008-4228-9935-ceec30c9f476</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;el-select-dropdown el-popper&quot;]/div[@class=&quot;el-scrollbar&quot;]/div[@class=&quot;el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default&quot;]/ul[@class=&quot;el-scrollbar__view el-select-dropdown__list&quot;]/li[@class=&quot;el-select-dropdown__item el-select-dropdown-label hover&quot;]/span[1][count(. | //*[(text() = '1991' or . = '1991')]) = count(//*[(text() = '1991' or . = '1991')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[14]/div[1]/div[1]/ul/li[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3d148667-6e16-4971-8ebe-95035d905ce5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1991</value>
+      <webElementGuid>e6341dea-2cce-4f90-8f48-dbfd10aef8d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;el-select-dropdown el-popper&quot;]/div[@class=&quot;el-scrollbar&quot;]/div[@class=&quot;el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default&quot;]/ul[@class=&quot;el-scrollbar__view el-select-dropdown__list&quot;]/li[@class=&quot;el-select-dropdown__item el-select-dropdown-label hover&quot;]/span[1]</value>
+      <webElementGuid>e069717d-d258-4378-8b40-77798277d479</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desember'])[2]/following::span[34]</value>
+      <webElementGuid>aef4f254-14a0-4566-bc76-963c0940af39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='November'])[2]/following::span[35]</value>
+      <webElementGuid>5c9571ec-c420-4de7-aaf8-6224efec64b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/ul/li[34]/span</value>
+      <webElementGuid>59a1c0ed-ac21-4192-a5e1-b922778da7c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '1991' or . = '1991')]</value>
+      <webElementGuid>2d4e2231-514f-4732-9c3b-685e114f1599</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

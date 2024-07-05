@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_capture</name>
+   <tag></tag>
+   <elementGuidId>2b40f30d-37ee-4260-a07c-ef7ce221a258</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[10]/div/div[3]/span/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a2223bc0-93b3-4e3f-b857-3d783110ea19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Capture</value>
+      <webElementGuid>8544dc95-8942-431a-a151-37268edb0323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;el-popup-parent--hidden&quot;]/div[@class=&quot;el-dialog__wrapper&quot;]/div[@class=&quot;el-dialog&quot;]/div[@class=&quot;el-dialog__footer&quot;]/span[@class=&quot;dialog-footer&quot;]/button[@class=&quot;el-button el-button--primary&quot;]/span[1]</value>
+      <webElementGuid>96864806-f995-4138-9d19-c0de5319a090</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::span[1]</value>
+      <webElementGuid>f8860554-d2ca-4254-b935-13308fc3d9b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ya'])[1]/following::span[4]</value>
+      <webElementGuid>4681565a-8a71-4882-a228-151dbec8fc81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div[3]/span/button[2]/span</value>
+      <webElementGuid>a10551f8-c8ba-435b-86d1-c41f50b16ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Capture' or . = 'Capture')]</value>
+      <webElementGuid>120606aa-dbff-4fea-9bcb-a9a0d901c7f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

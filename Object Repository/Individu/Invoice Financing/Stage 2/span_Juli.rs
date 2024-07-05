@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Juli</name>
+   <tag></tag>
+   <elementGuidId>d1e680d3-0b7c-4d7d-a12c-e2256497a2b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;el-select-dropdown el-popper&quot;]/div[@class=&quot;el-scrollbar&quot;]/div[@class=&quot;el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default&quot;]/ul[@class=&quot;el-scrollbar__view el-select-dropdown__list&quot;]/li[@class=&quot;el-select-dropdown__item el-select-dropdown-label&quot;]/span[1][count(. | //*[(text() = 'Juli' or . = 'Juli')]) = count(//*[(text() = 'Juli' or . = 'Juli')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[13]/div[1]/div[1]/ul/li[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1cf05d97-a8d8-4ebc-a40f-4b60b5a04556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Juli</value>
+      <webElementGuid>39b332ff-1df6-4329-9323-e9190c3f7782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;el-select-dropdown el-popper&quot;]/div[@class=&quot;el-scrollbar&quot;]/div[@class=&quot;el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default&quot;]/ul[@class=&quot;el-scrollbar__view el-select-dropdown__list&quot;]/li[@class=&quot;el-select-dropdown__item el-select-dropdown-label&quot;]/span[1]</value>
+      <webElementGuid>d7109bce-9124-40c0-9335-91a6b699d9ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Juni'])[2]/following::span[1]</value>
+      <webElementGuid>d1d6e648-89b0-4f61-991c-d15964510e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mei'])[2]/following::span[2]</value>
+      <webElementGuid>8310688a-523f-435b-b82b-9ae7b17203ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agustus'])[2]/preceding::span[1]</value>
+      <webElementGuid>29a60882-fbc6-4063-bbba-1f2c1e3563d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='September'])[2]/preceding::span[2]</value>
+      <webElementGuid>1509de2a-c34a-468c-ab48-22643870ad64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/ul/li[7]/span</value>
+      <webElementGuid>c78b66b8-6db3-416e-8f4f-62f5378994de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Juli' or . = 'Juli')]</value>
+      <webElementGuid>abdc7de1-422f-4c56-a7c1-3594ec9d5b7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

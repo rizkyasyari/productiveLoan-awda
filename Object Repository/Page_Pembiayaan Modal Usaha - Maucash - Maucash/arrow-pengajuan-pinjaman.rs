@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arrow-pengajuan-pinjaman</name>
+   <tag></tag>
+   <elementGuidId>3ce8fddc-ab2c-4cf7-8329-275257855526</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/span/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.el-select__caret.el-input__icon.el-icon-arrow-up</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>38efe61f-334e-4731-a63d-041f5e26047b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-select__caret el-input__icon el-icon-arrow-up</value>
+      <webElementGuid>ae5848a7-9dc0-4530-acd4-79d0f92c25d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;el-form-item is-required el-form-item--feedback is-required is-no-asterisk el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;el-select el-select--large&quot;]/div[@class=&quot;el-input el-input--large el-input--suffix&quot;]/span[@class=&quot;el-input__suffix&quot;]/span[@class=&quot;el-input__suffix-inner&quot;]/i[@class=&quot;el-select__caret el-input__icon el-icon-arrow-up&quot;]</value>
+      <webElementGuid>8be85fd6-9f17-4353-8da1-9b72d19fedd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/span/span/i</value>
+      <webElementGuid>3beb13ac-9c32-48a7-b923-27e31c011b71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>bd00e313-1c76-4b30-97e1-57c1b191207f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
