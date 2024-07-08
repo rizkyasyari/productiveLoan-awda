@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.util.concurrent.ThreadLocalRandom
 
 'buka browser (default: chrome)'
 WebUI.openBrowser('')
@@ -38,7 +39,8 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/txt_i
 //'Input nomor hp Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'), noHandphonePemohon)
 'Input nomor hp'
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'), '082374688855')
+def randomPhoneNumber = ThreadLocalRandom.current().nextLong(100000000L, 999999999L)
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'),String.valueOf('08'+randomPhoneNumber))
 
 'klik tombol kirim OTP'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/btn_kirimOTP'))
@@ -90,7 +92,9 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_
 //'input nomor ktp DATA Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noKTP'), ktp)
 'input nomor ktp'
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noKTP'), '1010101010101010')
+def randomKTPNumber = ThreadLocalRandom.current().nextLong(1000L, 9999L)
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noKTP'),String.valueOf('320208050491'+randomKTPNumber))
+
 
 //'input nama lengkap sesuai KTP DATA BINDING'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_namaLengkap'), namaLengkap)
@@ -147,9 +151,10 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 2/M
 
 //'Input Nomor KTP Pasangan Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_noKTPPasangan'), ktpPasangan)
-'Input Nomor KTP Pasangan'
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_noKTPPasangan'), '1010101010101010')
 
+'Input Nomor KTP Pasangan'
+def randomKTPNumber2 = ThreadLocalRandom.current().nextLong(1000L, 9999L)
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_noKTPPasangan'),String.valueOf('320208050491'+randomKTPNumber2))
 //
 //'Input Nama Pasangan sesuai KTP Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_namaLengkapPasangan'), namaLengkapPasangan)

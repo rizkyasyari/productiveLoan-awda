@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandStr
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
+import java.util.concurrent.ThreadLocalRandom
 
 'buka browser (default: chrome)'
 WebUI.openBrowser('')
@@ -39,8 +40,8 @@ WebUI.click(findTestObject('Bisnis/span_Badan Usaha'))
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'), noHandphonePemohon)
 //def randomString = RandomStringUtils.randomNumeric(16);
 'Input nomor hp'
-WebUI.setText(findTestObject('Object Repository/Page_Pembiayaan Modal Usaha - Maucash - Maucash/input_Nomor Handphone Pemohon'), 
-    '0878234866')
+def randomPhoneNumber = ThreadLocalRandom.current().nextLong(100000000L, 999999999L)
+WebUI.setText(findTestObject('Object Repository/Page_Pembiayaan Modal Usaha - Maucash - Maucash/input_Nomor Handphone Pemohon'),String.valueOf('08'+randomPhoneNumber))
 
 WebUI.delay(3)
 
@@ -89,9 +90,11 @@ WebUI.click(findTestObject('Bisnis/slc_bentukBadanUSaha'))
 
 WebUI.click(findTestObject('Bisnis/txt_Commanditer Venotschap (CV)'))
 
-// def randomString = RandomStringUtils.randomNumeric(16);
 'generate angka npwp'
-WebUI.setText(findTestObject('Bisnis/txt_NPWP'), '1000100010666631')
+// Generate a random 16-digit number
+def randomNumber = ThreadLocalRandom.current().nextLong(1000000000000000L, 9999999999999999L)
+// Replace 'your_test_object' with the actual Test Object representing the text field
+WebUI.setText(findTestObject('Bisnis/txt_NPWP'), String.valueOf(randomNumber))
 
 WebUI.click(findTestObject('Bisnis/icon_camera'))
 
