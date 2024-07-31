@@ -228,6 +228,10 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 3/span_Kode Pos Sesuai Tempat Usaha_el-checkb_7a8f53'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 3/clickbox_individu3'))
+
 WebUI.takeFullPageScreenshot()
 
 'Klik tombol lanjut'
