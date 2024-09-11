@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Loan Application Individu</name>
+   <name>Test Suite - App Form</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>2</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>e0e05cf6-6ce9-42a9-9eee-cc50fc80b101</testSuiteGuid>
+   <testSuiteGuid>227da7f3-bacd-4d30-b108-68be3c7c7d3e</testSuiteGuid>
    <testCaseLink>
-      <guid>9af6bdc4-af7a-4379-b34f-a77de7219381</guid>
+      <guid>beb16c49-e508-41c5-9bf8-9b91e532ddfd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Cases/Business Invoice Financing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ed2d4972-d9e3-45d8-9c2f-d82ac21fb8c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Cases/Business Working Capital</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bbc66c76-c384-4b08-9727-0080f0a00f3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5b937b54-cc6e-4503-8920-dcd23c10de40</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7ae5d8b-4ef4-4f06-b170-fc665fe23044</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Cases/Individu/Individu - Invoice Financing - With Partner</testCaseId>
@@ -109,7 +135,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>945f49d4-f08b-431d-a519-53e419a589f9</guid>
+      <guid>9fac83fb-5b36-487e-a0c2-2ae88b2e0024</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Cases/Individu/Individu - Invoice Financing - Without Partner</testCaseId>
@@ -206,7 +232,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9170bf28-58d1-4eb1-9743-53ecea3bd2de</guid>
+      <guid>86202774-7bef-445d-8656-6e9244bce6a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Cases/Individu/Individu - Working Capital - Without Partner</testCaseId>
@@ -285,7 +311,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f1dd6dcf-fd21-48c9-a6a0-a8e8f202698c</guid>
+      <guid>ea248aa9-42e5-4a8a-b0a7-c07f3dbc23fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Cases/Individu/Individu - Working Capital - With Partner</testCaseId>

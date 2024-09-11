@@ -152,11 +152,11 @@ WebUI.setText(findTestObject('Bisnis/new/txt_jabatan'), 'Just an ordinary staff'
 'Klik checkbox'
 WebUI.click(findTestObject('Object Repository/Bisnis/clickbox_bisnis1'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Bisnis/clickbox_bisnis2'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Bisnis/clickbox_bisinis3'))
 
