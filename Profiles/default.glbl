@@ -6,12 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://admin-fat.maucash.id/productive-loan/index.html#/'</initValue>
+      <initValue>'https://awsom-admin-dev.maucash.id/productive-loan/#/'</initValue>
       <name>Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
       <name>Data</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://admin-fat.maucash.id/productive-loan/index.html#/'</initValue>
+      <name>SpareURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

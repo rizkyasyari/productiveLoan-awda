@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='text']</value>
+         <value>//*[@id=&quot;app&quot;]/div/div[2]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/div[1]/span/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a36e370f-9cd5-4e03-9859-8a9f3a1bade1</webElementGuid>
+      <webElementGuid>776856f1-23c0-456f-ac1d-87c40e28b701</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2551a520-a206-477f-98ba-ab4cd740b2c9</webElementGuid>
+      <webElementGuid>0ac1bb5c-025f-4ad3-a5c6-3b0a738e6690</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>e308b052-efba-496d-a176-afdb20ea6235</webElementGuid>
+      <webElementGuid>17c4d6b7-584f-45d8-b71b-96468b325f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih product Pembiayaan</value>
-      <webElementGuid>87b5e8ee-de80-4824-9d6f-c7db3de676c5</webElementGuid>
+      <webElementGuid>a3a83716-08e7-46fe-9bd2-9434943e2989</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>el-input__inner</value>
-      <webElementGuid>aa98d704-54a2-4d10-bef8-32d5a25b25ee</webElementGuid>
+      <webElementGuid>c2c0bacc-4639-477c-b0ee-c3a8347b2d3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;page&quot;]/div[1]/div[@class=&quot;step&quot;]/div[@class=&quot;form&quot;]/form[@class=&quot;el-form el-form--label-top&quot;]/div[@class=&quot;el-form-item el-form-item--feedback is-required is-no-asterisk el-form-item--large&quot;]/div[@class=&quot;el-form-item__content&quot;]/div[@class=&quot;el-select el-select--large&quot;]/div[@class=&quot;el-input el-input--large el-input--suffix is-focus&quot;]/input[@class=&quot;el-input__inner&quot;]</value>
-      <webElementGuid>9a401ee8-0d70-42b5-8654-4f8670fa351f</webElementGuid>
+      <webElementGuid>47b48715-3b85-4d1e-ba30-3272f1361ba0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>fd6ec984-e79f-4283-8d0c-eec26bfd4a2b</webElementGuid>
+      <webElementGuid>43b06f38-7e27-4906-822f-d089035270c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div/div/div/div/input</value>
-      <webElementGuid>ecaf1f6b-6de8-416c-85fa-1d0aef25f6e0</webElementGuid>
+      <webElementGuid>d890bfa0-c12e-45ab-9d4d-66b5afc6807e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>155d179f-f3c1-4d0c-92e6-4584ed12dfb2</webElementGuid>
+      <webElementGuid>bb812381-36e4-46b3-a9d6-1b36e5772a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih product Pembiayaan']</value>
-      <webElementGuid>224b0d6e-c06c-4f76-a3ff-9a83d9188a10</webElementGuid>
+      <webElementGuid>f3c9c3c7-4749-4b38-8bcb-85b33dc4359c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

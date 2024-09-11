@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.util.concurrent.ThreadLocalRandom
+import java.util.concurrent.ThreadLocalRandom as ThreadLocalRandom
 
 'buka browser (default: chrome)'
 WebUI.openBrowser('')
@@ -39,8 +39,10 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/txt_i
 //'Input nomor hp Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'), noHandphonePemohon)
 'Input nomor hp'
-def randomPhoneNumber = ThreadLocalRandom.current().nextLong(100000000L, 999999999L)
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'),String.valueOf('08'+randomPhoneNumber))
+def randomPhoneNumber = ThreadLocalRandom.current().nextLong(100000000, 999999999)
+
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noHandphonePemohon'), String.valueOf('08' + 
+        randomPhoneNumber))
 
 'klik tombol kirim OTP'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/btn_kirimOTP'))
@@ -58,7 +60,7 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/btn_l
 'pilih produk pembiayaan'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/slc_produkPembiayaan'))
 
-'pilih working capital'
+'pilih invoice financing'
 WebUI.click(findTestObject('Individu/Invoice Financing/b_Invoice Financing'))
 
 'pilih tenor pinjaman'
@@ -72,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/txt_a
 'pilih tujuan pembiayaan'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/slc_tujuaanPembiayaan'))
 
-WebUI.delay(0)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/li_Ekspansi Bisnis'))
 
@@ -84,17 +86,20 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/butto
 'klik icon camera untuk foto ktp'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/input_Foto Identitas (KTP)_el-input__inner'))
 
-WebUI.delay(4)
+WebUI.delay(1)
 
 'klik tombol capture'
-WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture'))
+//WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture'))
+
+WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture2'))
 
 //'input nomor ktp DATA Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noKTP'), ktp)
 'input nomor ktp'
-def randomKTPNumber = ThreadLocalRandom.current().nextLong(1000L, 9999L)
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noKTP'),String.valueOf('320208050491'+randomKTPNumber))
+def randomKTPNumber = ThreadLocalRandom.current().nextLong(1000, 9999)
 
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_noKTP'), String.valueOf('320208050491' + 
+        randomKTPNumber))
 
 //'input nama lengkap sesuai KTP DATA BINDING'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_namaLengkap'), namaLengkap)
@@ -107,10 +112,9 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_
 //'input tempat lahir debitur seusai ktp Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_tempatLahir'), tempatLahir)
 'input tempat lahir debitur seusai ktp'
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_tempatLahir'), 'Jakarta')
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_tempatLahir'), 'Jakarta Selatan')
 
 //WebUI.click(findTestObject('Individu/Working Capital/new/txt_jakartaSelatan'))
-
 'input tanggal lahir sesuai ktp'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/txt_tanggalLahir'))
 
@@ -145,16 +149,20 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 2/M
 'Klik icon camera untuk foto ktp pasangan'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/img_camera'))
 
+WebUI.delay(1)
+
 'klik tombil capture'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/btn_capture'))
-//WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture'))
 
+//WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture'))
 //'Input Nomor KTP Pasangan Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_noKTPPasangan'), ktpPasangan)
-
 'Input Nomor KTP Pasangan'
-def randomKTPNumber2 = ThreadLocalRandom.current().nextLong(1000L, 9999L)
-WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_noKTPPasangan'),String.valueOf('320208050491'+randomKTPNumber2))
+def randomKTPNumber2 = ThreadLocalRandom.current().nextLong(1000, 9999)
+
+WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_noKTPPasangan'), String.valueOf(
+        '320208050491' + randomKTPNumber2))
+
 //
 //'Input Nama Pasangan sesuai KTP Data Binding'
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/txt_namaLengkapPasangan'), namaLengkapPasangan)
@@ -166,7 +174,7 @@ WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2
 //    tempatLahirPasangan)
 'Input Tempat Tanggal Lahir Pasangan sesuai KTP'
 WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/Stage 2/Married/input_Tempat Lahir Pasangan_el-input__inner'), 
-    'Jakarta')
+    'Jakarta Selatan')
 
 WebUI.click(findTestObject('Individu/Working Capital/Stage 2/Married/txt_provinsiPasangan'))
 
@@ -194,7 +202,6 @@ WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt
 
 //'pilih provinsi sesuai ktp'
 //WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/txt_provinsiKTP'))
-
 //
 //WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_provinsiKTP'), provinsiKTP)
 WebUI.setText(findTestObject('Object Repository/Individu/Working Capital/new/txt_provinsiKTP'), 'DKI Jakarta')
@@ -263,14 +270,13 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 3/t
 'Klik checkbox'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 3/span_Kode Pos Sesuai Tempat Usaha_el-checkb_7a8f53'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 3/span_Kode Pos Sesuai Tempat Usaha_el-checkb_7a8f53'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/Stage 3/clickbox_individu3'))
-
 
 WebUI.takeFullPageScreenshot()
 
@@ -283,7 +289,7 @@ berhasil = WebUI.getText(findTestObject('Object Repository/Individu/Working Capi
 
 WebUI.comment(berhasil)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
