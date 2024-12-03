@@ -88,9 +88,8 @@ WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/input
 
 WebUI.delay(1)
 
-'klik tombol capture'
 //WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture'))
-
+'klik tombol capture'
 WebUI.click(findTestObject('Object Repository/Individu/Working Capital/new/span_Capture2'))
 
 //'input nomor ktp DATA Binding'
