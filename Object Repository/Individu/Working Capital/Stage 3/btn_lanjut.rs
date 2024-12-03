@@ -6,20 +6,19 @@
    <elementGuidId>c74396c7-e318-4bad-a7c3-367181fd5d07</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#event_businessinfo_individual</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and @id = 'event_businessinfo_individual' and (text() = 'LANJUT' or . = 'LANJUT')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='event_businessinfo_individual']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#event_businessinfo_individual</value>
+         <value>//*[@id=&quot;event_businessinfo_individual&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>33765f84-770f-4be0-8862-bd9e1a293934</webElementGuid>
+      <webElementGuid>e875454f-5e4c-48ef-9c27-7170a118e059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>569304c2-4171-4273-8d8f-f17efd054992</webElementGuid>
+      <webElementGuid>eeff8299-093c-4d2f-9106-73eb4a706ac5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>el-button el-button-big el-button--primary el-button--large</value>
-      <webElementGuid>c642cb83-e9be-487e-ba93-cdd522ee6520</webElementGuid>
+      <webElementGuid>52f604bc-a6b6-4d70-a037-95c0fca14a36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>event_businessinfo_individual</value>
-      <webElementGuid>d8460090-008a-4d79-8934-b7548bee4686</webElementGuid>
+      <webElementGuid>092000cf-c118-4741-ac98-f28a303e6f6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>LANJUT</value>
-      <webElementGuid>164f64f4-b57d-4e3b-bcbd-bbb5e4394bd8</webElementGuid>
+      <webElementGuid>ad9f3ea7-bfa7-4e9e-b4d1-b9357afbae1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;event_businessinfo_individual&quot;)</value>
-      <webElementGuid>5a71f0ed-f423-40f4-9fdd-01a3fd663436</webElementGuid>
+      <webElementGuid>8d252951-7a12-4a6c-bfd2-1e4996ab75e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='event_businessinfo_individual']</value>
-      <webElementGuid>7fe139d4-ef2c-4a96-9497-ba60d31f70f2</webElementGuid>
+      <webElementGuid>bc74a8c3-0c33-473c-8b78-b59094f94ff5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/form/div[10]/div/div/button[2]</value>
-      <webElementGuid>92c6cbee-eb88-4f7f-a4cd-c07ce21bb7c1</webElementGuid>
+      <webElementGuid>a977e0d7-7a0e-4dc5-99b9-db941474f6a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='KEMBALI'])[1]/following::button[1]</value>
-      <webElementGuid>93964bcc-3c96-4be6-b007-910dcdda78d7</webElementGuid>
+      <webElementGuid>44ce2be9-1c75-40e6-93d9-c16b8c5647bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/following::button[2]</value>
-      <webElementGuid>41da1883-70a5-4eb9-a26b-3307d81256d1</webElementGuid>
+      <webElementGuid>0e4bd619-129c-4c10-9777-198c288e6e80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2024 PT Astra Welab Digital Arta. All rights reserved'])[1]/preceding::button[1]</value>
-      <webElementGuid>adcd2f44-3606-4e55-810f-0c040822a2c7</webElementGuid>
+      <webElementGuid>c1ca6dfd-1d54-4eaf-9545-f04781529892</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>8b3021d7-1ccd-40ab-9e13-52301616f39e</webElementGuid>
+      <webElementGuid>2f773753-7b69-4427-b7ff-6904a19406c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'event_businessinfo_individual' and (text() = 'LANJUT' or . = 'LANJUT')]</value>
-      <webElementGuid>5310304e-3283-4214-b0e0-375fc16d2c70</webElementGuid>
+      <webElementGuid>6fc40e0f-b9ef-4942-9d17-e1b9d0ee3293</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
